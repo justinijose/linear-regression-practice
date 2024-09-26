@@ -1,2 +1,2 @@
 # linear-regression-practice
-Linear Regression Practice
+Linear regression practice/exercises.
