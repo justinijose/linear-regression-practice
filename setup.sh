@@ -4,10 +4,13 @@
 echo "Starting setup..."
 
 # Create a virtual environment named 'venv'
-python3 -m venv venv
+python -m venv venv
+
+# Change execution policy for Windows machine
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Activate the virtual environment
-source venv/bin/activate
+source venv/Scripts/activate
 
 # Install Python dependencies from requirements.txt
 pip install -r requirements.txt
